@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &127019322548031809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127019322548031808}
+  - component: {fileID: 127019322548031811}
+  - component: {fileID: 7098310583995731336}
+  - component: {fileID: 127019322548031814}
+  m_Layer: 0
+  m_Name: PlayerCharacters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &127019322548031808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127019322548031809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: -1.892}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &127019322548031811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127019322548031809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65fc0b820cca6c344bac1ecb70cf5585, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionLayer:
+    serializedVersion: 2
+    m_Bits: 2560
+  m_NonInteractableLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  m_WorldLayer:
+    serializedVersion: 2
+    m_Bits: 3863
+  m_GroundLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+  m_UnderPlayer: {fileID: 7032154072185254220, guid: cbd5536ee87698a4e8caf54757e4e0aa,
+    type: 3}
+  m_EndTurnButton: {fileID: 0}
+  m_DefaultCursor: {fileID: 2800000, guid: 8b14dc350144a5541aed16f6007647e1, type: 3}
+  m_DefaultCursorPressed: {fileID: 2800000, guid: 79f428bb4163b4c47a741b4894e8e445,
+    type: 3}
+  m_WalkCursor: {fileID: 2800000, guid: a5972ec11c7f5374f8f99e12e190ead5, type: 3}
+  m_GrabCursor: {fileID: 2800000, guid: 3265494a0a69e874ea7369360d39c86c, type: 3}
+  m_HandCursor: {fileID: 2800000, guid: 5ed51307c6b10d44eaa684692cffff85, type: 3}
+  m_AttackCursor: {fileID: 2800000, guid: 232223a3f94759d4398d4cda12f153e3, type: 3}
+  m_UseDoubleClick: 0
+--- !u!114 &7098310583995731336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127019322548031809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af1dd57238961934f9e7fd5111b7fdae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MouseOverLayerMask:
+    serializedVersion: 2
+    m_Bits: 0
+  m_GroundLayer:
+    serializedVersion: 2
+    m_Bits: 1024
+--- !u!114 &127019322548031814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127019322548031809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2b4e7100136bd5418a8145f05eb8d05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodSpriteHolder: {fileID: 0}
+  maxFood: 10

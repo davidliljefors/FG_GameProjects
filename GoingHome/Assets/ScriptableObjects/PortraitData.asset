@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bf6c5c95e66b64487bd7d53dc5dd52, type: 3}
+  m_Name: PortraitData
+  m_EditorClassIdentifier: 
+  portraits:
+  - speaker: 0
+    portrait: {fileID: 21300000, guid: 026e7b9041c292f43b6ecb3c6c7d1630, type: 3}
+  - speaker: 1
+    portrait: {fileID: 21300000, guid: fac4a82120857254593d4303ce6f54b7, type: 3}
+  - speaker: 2
+    portrait: {fileID: 21300000, guid: e7cbbfde51bb4e442ada12109af2a4bd, type: 3}
+  - speaker: 3
+    portrait: {fileID: 21300000, guid: 880863c79aa07264a804d1343bcb3ebb, type: 3}

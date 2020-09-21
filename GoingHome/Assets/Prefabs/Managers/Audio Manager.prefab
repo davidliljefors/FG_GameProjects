@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7281859810146680885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7281859810146680890}
+  - component: {fileID: 7281859810146680891}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7281859810146680890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7281859810146680885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7281859810146680891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7281859810146680885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a92df39e41c49b24e8eb855bcbfb22b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfxGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+    type: 2}
+  musicGroup: {fileID: 1581647373475607824, guid: fe1e64ada702a074db37cf6834ff1581,
+    type: 2}
+  audioSourceInstances: 5
+  sounds:
+  - name: EnemyHit
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 14b40c974c66a8243bdac9845834cfc7, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerHit
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 1bf8812202752094db1f80620490b5cb, type: 3}
+    volume: 0
+    pitch: 1
+    source: {fileID: 0}
+  - name: EquipWeapon
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 7bb249a3499aa4140adf81371ba6c649, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: PickupFood
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 36c53d133674a8b4da5c818756528423, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerHitScream
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 5ee52cf41d9f8514ab66ab43a0ab7a6c, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyHitScream
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 1f070a91aef74f6459187f610c737b70, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: PlayerAttackScream
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 5ee52cf41d9f8514ab66ab43a0ab7a6c, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: EnemyAttackScream
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 4724241a0d0c1874884fd6595e99f2ab, type: 3}
+    volume: 0.2
+    pitch: 1
+    source: {fileID: 0}
+  - name: ButtonHover
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: a18e9ea9e261c604da4ddf618e530197, type: 3}
+    volume: 0.3
+    pitch: 2
+    source: {fileID: 0}
+  - name: ButtonPress
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: 7df33d51ed8c2fb4388f0b11cfa4ddaf, type: 3}
+    volume: 0.3
+    pitch: 2
+    source: {fileID: 0}
+  - name: OpenMenu
+    mixerGroup: {fileID: 1174308322750693152, guid: fe1e64ada702a074db37cf6834ff1581,
+      type: 2}
+    clip: {fileID: 8300000, guid: f950c3e3ef63d2649bb4e47322ca83c8, type: 3}
+    volume: 1
+    pitch: 2
+    source: {fileID: 0}
+  isFadingIn: 0

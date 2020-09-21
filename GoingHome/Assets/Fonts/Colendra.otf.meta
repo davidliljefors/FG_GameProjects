@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 1d5d21383f86e114fa6908fce89cc17f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Colendra
+  fontNames:
+  - Colendra
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 47ead5e0ad4dbb847907b1074387d277, type: 3}
+  - {fileID: 12800000, guid: 81b5cb853cf52d6428cf11b6d93fb102, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
