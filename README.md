@@ -8,6 +8,7 @@ Bad Hare Day was also four weeks long UE4 project in Aug-Sep 2020
 
 Credits for each project goes to:
 
+
 Kid Fury (Tested in UE4.25.3)
 
  Fredrik Bohlin,
@@ -21,7 +22,7 @@ Kid Fury (Tested in UE4.25.3)
  Daniel Velu,
  Erik Petterson,
  Kiia Raikunen,
- Knut Svanfeldt,
+ Knut Svanfeldt
 
 
 Going Home (Tested in Unity.2020.1.6f1)
@@ -35,7 +36,7 @@ Going Home (Tested in Unity.2020.1.6f1)
  David Liljefors,
  Adrian Sitek,
  Alkmini Stathi,
- Marcus Quarfordt,
+ Marcus Quarfordt
 
 
 Bad Hare Day (Tested in UE4.25.3)
@@ -48,4 +49,4 @@ Bad Hare Day (Tested in UE4.25.3)
  David Liljefors,
  Nicholas Lo,
  Gwangyeong Yun,
- Cecilia Örnholt,
+ Cecilia Örnholt
