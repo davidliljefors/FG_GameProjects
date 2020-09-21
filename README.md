@@ -2,12 +2,14 @@
 Collection of the game projects I've worked on
 
 Kid Fury was a  four week long UE4 project during Jan-Feb 2020
+
 Going Home was built in Unity HDRP over seven weeks working 100% from home in May-June 2020
+
 Bad Hare Day was also four weeks long UE4 project in Aug-Sep 2020
 
+----
 
 Credits for each project goes to:
-
 
 Kid Fury (Tested in UE4.25.3)
 
@@ -24,6 +26,7 @@ Kid Fury (Tested in UE4.25.3)
  Kiia Raikunen,
  Knut Svanfeldt
 
+----
 
 Going Home (Tested in Unity.2020.1.6f1)
 
@@ -38,6 +41,7 @@ Going Home (Tested in Unity.2020.1.6f1)
  Alkmini Stathi,
  Marcus Quarfordt
 
+----
 
 Bad Hare Day (Tested in UE4.25.3)
 
